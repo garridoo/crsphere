@@ -1,8 +1,8 @@
-## Scripts of Duran, Flores-Uribe, *et. al*, Characterization of the *Chlamydomonas reinhardtii* phycosphere reveals conserved features of the plant microbiota.
+## Scripts of Duran, Flores-Uribe, *et. al*, Characterization of the *Chlamydomonas reinhardtii* phycosphere reveals conserved features of the plant microbiota
 
-correspondence to [Ruben Garrido-Oter](mailto:garridoo@mpipz.mpg.de) 
+Correspondence to [Ruben Garrido-Oter](mailto:garridoo@mpipz.mpg.de).
 
-These scripts are made available to facilitate the reproducibility of our research. If you re-use any or part of this code, please reference with comments and cite our paper. Raw data and intermediate results necessary to run these scripts can also be downloaded [here](http://www.mpipz.mpg.de/scripts)
+These scripts are made available to facilitate the reproducibility of our research. If you re-use any or part of this code, please reference with comments and cite our paper. Raw data and intermediate results necessary to run these scripts can also be downloaded [here](http://www.mpipz.mpg.de/scripts).
 
 Our manuscript is currently available as a preprint in [*bioRxiv*](https://doi.org/10.1101/2021.03.04.433956).
 
