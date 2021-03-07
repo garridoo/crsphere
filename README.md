@@ -10,7 +10,7 @@ Our manuscript is currently available as a preprint in [*bioRxiv*](https://doi.o
 
 ---------------------------
 
-To run the scripts contained in this repository, we recommend to download first the raw and intermediate data from [here](http://www.at-sphere.com/cr.tar.gz). After extracting its contents, the script [paths.R](https://github.com/garridoo/crsphere/blob/main/scripts/paths.R) can be modified so that the base path points to the directory containing the data. After installing the necessary R libraries, all experiments can be analyzed independently by loading the corresponding data and subsequently running the remaining scripts.
+To run the scripts contained in this repository, we recommend to download first the raw and intermediate data from [here](http://www.at-sphere.com/cr.tar.gz). After extracting its contents, the script [paths.R](https://github.com/garridoo/crsphere/blob/master/scripts/paths.R) can be modified so that the base path points to the directory containing the data. After installing the necessary R libraries, all experiments can be analyzed independently by loading the corresponding data and subsequently running the remastering scripts.
 
 ### Accession numbers
 
@@ -22,55 +22,55 @@ In addition, raw sequencing data from all SynCom experiments (FASTQ files and ma
 
 #### Greenhouse experiment
 
-The scripts [load_data_NC.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_NC.R),
-[diversity_NC.R](https://github.com/garridoo/crsphere/blob/main/scripts/diversity_NC.R),
-[enrichment_NC.R](https://github.com/garridoo/crsphere/blob/main/scripts/enrichment_NC.R), and
-[enrichment_curves_NC.R](https://github.com/garridoo/crsphere/blob/main/scripts/enrichment_curves_NC.R) are used to load data from the natural community (greenhouse experiment; Fig. S1A) and perform alpha- and beta-diversity analyses and identify AVSs enriched in the different compartments. These scripts correspond to the analyses shown in Fig. 1, and Fig. S2 of the manuscript.
+The scripts [load_data_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_NC.R),
+[diversity_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_NC.R),
+[enrichment_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_NC.R), and
+[enrichment_curves_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_curves_NC.R) are used to load data from the natural community (greenhouse experiment; Fig. S1A) and perform alpha- and beta-diversity analyses and identify AVSs enriched in the different compartments. These scripts correspond to the analyses shown in Fig. 1, and Fig. S2 of the manuscript.
 
 #### Root and phycosphere meta-analysis
 
-The scripts [load_data_yeoh.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_yeoh.R),
-[load_data_thiergart_harbort.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_thiergart_harbort.R),
-[core.R](https://github.com/garridoo/crsphere/blob/main/scripts/core.R), and
-[core_plots.R](https://github.com/garridoo/crsphere/blob/main/scripts/core_plots.R) are used to load the *16S* rRNA amplicon datasets published in Yeoh *et al.*, 2017, Thiergart *et al.*, 2019, and Harbort *et al.*, 2020, and perform the analyses of core microbial taxa described in the manuscript and depicted in Fig. 2.
+The scripts [load_data_yeoh.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_yeoh.R),
+[load_data_thiergart_harbort.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_thiergart_harbort.R),
+[core.R](https://github.com/garridoo/crsphere/blob/master/scripts/core.R), and
+[core_plots.R](https://github.com/garridoo/crsphere/blob/master/scripts/core_plots.R) are used to load the *16S* rRNA amplicon datasets published in Yeoh *et al.*, 2017, Thiergart *et al.*, 2019, and Harbort *et al.*, 2020, and perform the analyses of core microbial taxa described in the manuscript and depicted in Fig. 2.
 
 #### Mesocosm experiments
 
-To analyse the data from the mesocosm experiments (Fig. S1B), including alpha- and beta-diversity, enrichment tests and assessment of algal growth data, the following scripts can be used: [load_data_MC.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_MC.R),
-[diversity_MC.R](https://github.com/garridoo/crsphere/blob/main/scripts/diversity_MC.R),
-[enrichment_MC.R](https://github.com/garridoo/crsphere/blob/main/scripts/enrichment_MC,R),
-[enrichment_curves_MC.R](https://github.com/garridoo/crsphere/blob/main/scripts/enrichment_curves_MC.R), and
-[cell_counts_MC.R](https://github.com/garridoo/crsphere/blob/main/scripts/cell_counts_MC.R). These scripts generate the analyses shown in Fig. 3.
+To analyse the data from the mesocosm experiments (Fig. S1B), including alpha- and beta-diversity, enrichment tests and assessment of algal growth data, the following scripts can be used: [load_data_MC.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_MC.R),
+[diversity_MC.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_MC.R),
+[enrichment_MC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_MC,R),
+[enrichment_curves_MC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_curves_MC.R), and
+[cell_counts_MC.R](https://github.com/garridoo/crsphere/blob/master/scripts/cell_counts_MC.R). These scripts generate the analyses shown in Fig. 3.
 
 #### Sequence-Indexed Phycobacterial Library (IPL)
 
-The scripts [IPL_load_data.R](https://github.com/garridoo/crsphere/blob/main/scripts/IPL_load_data.R),
-[IPL.R](https://github.com/garridoo/crsphere/blob/main/scripts/IPL.R), and
-[IPL_recovery_rates.R](https://github.com/garridoo/crsphere/blob/main/scripts/IPL_recovery_rates.R) are used to used to cross-reference data from shallow sequencing of the IPL (Fig S1C) and culture-independent profiling of start inocula (e.g., greenhouse data), and to estimate species recovery rates (Fig. 1D, and Fig. S4A).
+The scripts [IPL_load_data.R](https://github.com/garridoo/crsphere/blob/master/scripts/IPL_load_data.R),
+[IPL.R](https://github.com/garridoo/crsphere/blob/master/scripts/IPL.R), and
+[IPL_recovery_rates.R](https://github.com/garridoo/crsphere/blob/master/scripts/IPL_recovery_rates.R) are used to used to cross-reference data from shallow sequencing of the IPL (Fig S1C) and culture-independent profiling of start inocula (e.g., greenhouse data), and to estimate species recovery rates (Fig. 1D, and Fig. S4A).
 
 ### Analyses of culture-dependent *16S* rRNA amplicon data
 
 #### SynCom flask experiment
 
-The scripts [load_data_SC_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_SC_flask.R),
-[diversity_SC_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/diversity_SC_flask.R), and
-[fluorescence_SC_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/fluorescence_SC_flask.R) can be used to load data from the flask SynCom experiment (Fig. SD), and perform the diversity analyses shown in Fig. 4 of the manuscript.
+The scripts [load_data_SC_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_flask.R),
+[diversity_SC_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_SC_flask.R), and
+[fluorescence_SC_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/fluorescence_SC_flask.R) can be used to load data from the flask SynCom experiment (Fig. SD), and perform the diversity analyses shown in Fig. 4 of the manuscript.
 
 #### SynCom FlowPot and flask competition experiments
 
-To process the data from the competition experiments in the soil-based gnotobiotic system (Fig. S1E), the following scripts can be used:  [load_data_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_SC_comp_flowpot.R),
-[diversity_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/main/scripts/diversity_SC_comp_flowpot.R), and
-[boxplots_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/main/scripts/boxplots_SC_comp_flowpot.R).
-Likewise, the data from the competition experiment in a liquid based system can be processes with the scripts [load_data_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_SC_flask.R),
-[boxplots_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/boxplots_SC_comp_flask.R), and
-[cell_counts_SC_flask.R](https://github.com/garridoo/crsphere/blob/main/scripts/cell_counts_SC_flask.R). Together, these scripts generate the panels shown in Fig. 5.
+To process the data from the competition experiments in the soil-based gnotobiotic system (Fig. S1E), the following scripts can be used:  [load_data_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_comp_flowpot.R),
+[diversity_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_SC_comp_flowpot.R), and
+[boxplots_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/boxplots_SC_comp_flowpot.R).
+Likewise, the data from the competition experiment in a liquid based system can be processes with the scripts [load_data_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_flask.R),
+[boxplots_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/boxplots_SC_comp_flask.R), and
+[cell_counts_SC_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/cell_counts_SC_flask.R). Together, these scripts generate the panels shown in Fig. 5.
 
 #### SynCom split system experiment
 
-The scripts [load_data_SC_split.R](https://github.com/garridoo/crsphere/blob/main/scripts/load_data_SC_split.R),
-[diversity_SC_split.R](https://github.com/garridoo/crsphere/blob/main/scripts/diversity_SC_split.R),
-[fluorescence_SC_split.R](https://github.com/garridoo/crsphere/blob/main/scripts/fluorescence_SC_split.R), and
-[cell_counts_SC_split.R](https://github.com/garridoo/crsphere/blob/main/scripts/cell_counts_SC_split.R) can be used to process the data from the SynCom split system (Fig. S1F) and perform the analyses depicted in Fig. 6 of the manuscript.
+The scripts [load_data_SC_split.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_split.R),
+[diversity_SC_split.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_SC_split.R),
+[fluorescence_SC_split.R](https://github.com/garridoo/crsphere/blob/master/scripts/fluorescence_SC_split.R), and
+[cell_counts_SC_split.R](https://github.com/garridoo/crsphere/blob/master/scripts/cell_counts_SC_split.R) can be used to process the data from the SynCom split system (Fig. S1F) and perform the analyses depicted in Fig. 6 of the manuscript.
 
 ### Whole-genome assembly, quality control, and annotation of the *Cr*-SPHERE core culture collection
 
@@ -86,7 +86,7 @@ Raw sequencing data (FASTQ files) from the core *Cr*-SPHERE culture collection a
 
 ### Additional scripts
 
-[plotting_parameters.R](https://github.com/garridoo/crsphere/blob/main/scripts/plotting_parameters.R), and [plotting_functions.R](https://github.com/garridoo/crsphere/blob/main/scripts/plotting_functions.R) contain R scripts containing plotting parameters such as colors, ggplot2 themes, etc. as well as auxiliary functions for generating the figures reported in the paper (some of the details may vary with respect to the published version).
+[plotting_parameters.R](https://github.com/garridoo/crsphere/blob/master/scripts/plotting_parameters.R), and [plotting_functions.R](https://github.com/garridoo/crsphere/blob/master/scripts/plotting_functions.R) contain R scripts containing plotting parameters such as colors, ggplot2 themes, etc. as well as auxiliary functions for generating the figures reported in the paper (some of the details may vary with respect to the published version).
 
 ---------------------------
 
