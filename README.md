@@ -1,10 +1,8 @@
 ## Scripts of Duran, Flores-Uribe, *et. al*, Characterization of the *Chlamydomonas reinhardtii* phycosphere reveals conserved features of the plant microbiota.
 
-correspondence to Ruben Garrido-Oter
+correspondence to [Ruben Garrido-Oter](mailto:garridoo@mpipz.mpg.de) 
 
-garridoo@mpipz.mpg.de
-
-These scripts are made available to facilitate the reproducibility of our research. If you re-use any or part of this code, please reference with comments and cite our paper. Raw data and intermediate results necessary to run these scripts can also be downloaded [here](http://www.mpipz.mpg.de/scripts).
+These scripts are made available to facilitate the reproducibility of our research. If you re-use any or part of this code, please reference with comments and cite our paper. Raw data and intermediate results necessary to run these scripts can also be downloaded [here](http://www.mpipz.mpg.de/scripts)
 
 Our manuscript is currently available as a preprint in [*bioRxiv*](https://doi.org/10.1101/2021.03.04.433956).
 
@@ -82,7 +80,7 @@ Raw sequencing data (FASTQ files) from the core *Cr*-SPHERE culture collection a
 
 [parallel.sh](https://github.com/garridoo/lsphere/blob/master/parallel.sh): custom script to run bash functions in parallel in a multi-core machine.
 
-[assembly_stats.R](https://github.com/garridoo/ljsphere/blob/master/assembly_stats.R): R script used to generate assembly statistics as well as GC and k-mer spectral projections. The output of this script contains clean assemblies (all contigs < 1,000 bp are removed) as well as a PDF file containing a report which was used to manually inspect for likely contaminated assemblies.
+[assembly_stats.R](https://github.com/garridoo/ljsphere/blob/master/assembly_stats.R): R script used to generate assembly statistics as well as GC and *k*-mer spectral projections. The output of this script contains clean assemblies (all contigs < 1,000 bp are removed) as well as a PDF file containing a report which was used to manually inspect for likely contaminated assemblies.
 
 ### Additional scripts
 
