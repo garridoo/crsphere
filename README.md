@@ -82,7 +82,7 @@ Raw sequencing data (FASTQ files) from the core *Cr*-SPHERE culture collection a
 
 [assembly_stats.R](https://github.com/garridoo/ljsphere/blob/master/assembly_stats.R): R script used to generate assembly statistics as well as GC and k-mer spectral projections. The output of this script contains clean assemblies (all contigs < 1,000 bp are removed) as well as a PDF file containing a report which was used to manually inspect for likely contaminated assemblies.
 
-### Additional scripts
+### Additional scripts
 
 [plotting_parameters.R](https://github.com/garridoo/crsphere/blob/main/scripts/plotting_parameters.R), and [plotting_functions.R](https://github.com/garridoo/crsphere/blob/main/scripts/plotting_functions.R) contain R scripts containing plotting parameters such as colors, ggplot2 themes, etc. as well as auxiliary functions for generating the figures reported in the paper (some of the details may vary with respect to the published version).
 
