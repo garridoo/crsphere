@@ -8,6 +8,8 @@ These scripts are made available to facilitate the reproducibility of our resear
 
 Our manuscript is currently available as a preprint in [*bioRxiv*](https://doi.org/10.1101/2021.03.04.433956).
 
+---------------------------
+
 To run the scripts contained in this repository, we recommend to download first the raw and intermediate data from [here](http://www.at-sphere.com/cr.tar.gz). After extracting its contents, the script [paths.R](https://github.com/garridoo/crsphere/blob/main/scripts/paths.R) can be modified so that the base path points to the directory containing the data. After installing the necessary R libraries, all experiments can be analyzed independently by loading the corresponding data and subsequently running the remaining scripts.
 
 ### Accession numbers
