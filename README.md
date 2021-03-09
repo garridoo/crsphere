@@ -23,7 +23,7 @@ In addition, raw sequencing data from all SynCom experiments (FASTQ files and ma
 The scripts [load_data_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_NC.R),
 [diversity_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_NC.R),
 [enrichment_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_NC.R), and
-[enrichment_curves_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_curves_NC.R) are used to load data from the natural community (greenhouse experiment; Fig. S1A) and perform alpha- and beta-diversity analyses and identify AVSs enriched in the different compartments. These scripts correspond to the analyses shown in Fig. 1, and Fig. S2 of the manuscript.
+[enrichment_curves_NC.R](https://github.com/garridoo/crsphere/blob/master/scripts/enrichment_curves_NC.R) are used to load data from the natural community (greenhouse experiment; Fig. S1A), perform alpha- and beta-diversity analyses, and identify AVSs enriched in the different compartments. These scripts correspond to the analyses shown in Fig. 1, and Fig. S2 of the manuscript.
 
 #### Root and phycosphere meta-analysis
 
@@ -59,7 +59,7 @@ The scripts [load_data_SC_flask.R](https://github.com/garridoo/crsphere/blob/mas
 To process the data from the competition experiments in the soil-based gnotobiotic system (Fig. S1E), the following scripts can be used:  [load_data_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_comp_flowpot.R),
 [diversity_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/diversity_SC_comp_flowpot.R), and
 [boxplots_SC_comp_flowpot.R](https://github.com/garridoo/crsphere/blob/master/scripts/boxplots_SC_comp_flowpot.R).
-Likewise, the data from the competition experiment in a liquid based system can be processes with the scripts [load_data_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_flask.R),
+Likewise, the data from the competition experiment in a liquid based system can be processed with the scripts [load_data_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/load_data_SC_flask.R),
 [boxplots_SC_comp_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/boxplots_SC_comp_flask.R), and
 [cell_counts_SC_flask.R](https://github.com/garridoo/crsphere/blob/master/scripts/cell_counts_SC_flask.R). Together, these scripts generate the panels shown in Fig. 5.
 
