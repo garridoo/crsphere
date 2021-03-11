@@ -94,7 +94,7 @@ recovery <- function(otu_table_norm_IPL, otu_table_norm_NC, host_IPL, host_NC, t
     
     ggsave(paste(figures.dir, "recovery_cumsum_", host_IPL, host_NC, ".pdf", sep=""), p,
            width=width_rec_barplot, height=height_rec_barplot)
-print(df_top$cumsum[100])
+
 }
 
 cat("\nRecovery rates for CrIPL respect to At roots:\n\n")
