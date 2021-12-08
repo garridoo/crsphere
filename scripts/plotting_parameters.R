@@ -43,11 +43,24 @@ cr_only_color <- "#008080"
 teal <- "#008080"
 grass <- "#536d06"
 
+chlamy_1030_color <- "#3f5e34" 
+chlamy_0911_color <- "#5422c9" 
+chlamy_0968_color <- "#1c7980"
+    
+spirogloea_color <- "#eb8f34"
+microthamnion_color <- "#c9c547"
+klebsormidium_1121_color <- "#3d54a6"
+
 input_shape <- 16
 root_shape <- 19
 rhizosphere_shape <- 3
 soil_shape <- 18
+soil_surface_shape <- 25
 phycosphere_shape <- 17
+aquatic_shape <- 16
+
+covered_color <- "black"
+uncovered_color <- "#fcba03"
 
 # ggplot2 theme
 
